@@ -1,0 +1,66 @@
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (1,'ABC',831153421,'hplail0@usnews.com','326-157-9370','13352 Kinsman Terrace',1);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (2,'El Cuervo',571801773,'bbarwack1@engadget.com','734-492-8012','1775 Coolidge Plaza',2);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (3,'El Especial',632573665,'eleclaire2@hexun.com','689-376-3562','2689 Eggendart Alley',3);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (4,'La Casa',493864569,'tgiamitti3@edublogs.org','840-262-3946','629 Graedel Pass',4);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (5,'Los Gonzalez',912612753,'mgai4@4shared.com','182-413-1511','68609 Debra Terrace',5);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (6,'El Principal',528080989,'mpetraitis5@sbwire.com','354-474-5737','843 Carioca Junction',6);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (7,'Hermanos Guillen',807266876,'ehadleigh6@cmu.edu','216-113-8876','5 Lien Center',7);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (8,'Azul',839966478,'qinstone7@wix.com','427-565-1214','2 Mallory Alley',8);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (9,'Los Recuerdos',525860785,'lcarvil8@feedburner.com','352-811-0184','112 Barnett Crossing',9);
+INSERT INTO suppliers (`id_supplier`,`supplier_name`,`supplier_cuit`,`supplier_email`,`supplier_phone`,`supplier_address`,`id_product`) VALUES (10,'Saivor',905939267,'beuler9@wordpress.com','715-218-6165','5 Orin Crossing',10);
+
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (1,'Agua Mineral 1L','Bebidas',71,100,1000,'Kin',1);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (2,'Te x 100 Saquitos','Almacen',251,395,500,'Taragui',2);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (3,'Arroz 1KG','Almacen',126,160,254,'Molinos',2);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (4,'Polenta 500G','Almacen',50,85,3467,'Morixe',2);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (5,'Papas Fritas 1.5K','Congelados',650,786,322,'McCain',3);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (6,'Toallitas Desinfectantes 35U','Limpieza',220,276,789,'Ayudin',4);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (7,'Arvejas 300G','Congelados',301,357,224,'Granja del Sol',3);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (8,'Pure de Tomates 520G','Almacen',79,100,122,'Corper',2);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (9,'Bolsa Residuo','Limpieza',201,281,790,'Task',4);
+INSERT INTO products (`id_product`,`product_name`,`product_type`,`cost_price`,`sale_price`,`product_stock`,`product_brand`,`id_supplier`) VALUES (10,'Gaseosa 2.25L','Bebidas',250,307,1246,'Pepsi',1);
+
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (1,'Belgrano','ojolliff0@whitehouse.gov','438-702-6443','4880 Di Loreto Court',1,1);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (2,'Centro','abeathem1@histats.com','258-832-0197','376 Ronald Regan Crossing',2,2);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (3,'Banfield','sreddyhoff2@myspace.com','205-908-4941','97270 Rockefeller Pass',3,3);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (4,'Central','chopfner3@pen.io','380-246-9611','085 Clove Point',4,4);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (5,'Rosario','mannets4@sciencedirect.com','936-778-1052','4 Comanche Place',5,5);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (6,'Cordoba','jpawson5@upenn.edu','853-417-6128','7001 Brickson Park Pass',6,6);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (7,'Palermo','jtansly6@telegraph.co.uk','582-933-8125','9165 Riverside Junction',7,7);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (8,'Recoleta','bstrowthers7@oaic.gov.au','816-625-5111','180 Springview Alley',8,8);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (9,'Las Flores','cfetteplace8@smugmug.com','644-686-5137','2166 Golden Leaf Place',9,9);
+INSERT INTO stores (`id_store`,`store_name`,`store_email`,`store_phone`,`store_address`,`id_employee`,`id_order`) VALUES (10,'Caballito','phurworth9@irs.gov','398-833-7492','7951 Hudson Terrace',10,10);
+
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (1,'Silvio Etherson',929096540,'setherson0@adobe.com','733-485-3670','82515 Elmside Plaza',100000,'2019-05-18 00:00:01','2022-05-18 00:00:02',1);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (2,'Linc Mora',991014750,'lmora1@ehow.com','499-816-4973','20 Northridge Terrace',99000,'2019-05-18 00:00:02','2022-05-18 00:00:03',2);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (3,'Daloris Forbes',621253308,'dforbes2@ftc.gov','114-653-1096','273 Roth Junction',87600,'2018-01-18 00:00:06','2022-05-18 00:00:04',3);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (4,'Julie Arend',213282041,'jarend3@auda.org.au','949-584-3340','34406 Cordelia Trail',45600,'2018-01-18 00:00:06','2022-05-18 00:00:05',4);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (5,'Devin Moorwood',316154545,'dmoorwood4@rambler.ru','737-522-0779','5605 Grover Drive',123400,'2019-05-18 00:00:05','2022-05-18 00:00:06',5);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (6,'Mab Sawley',274868522,'msawley5@yellowbook.com','415-596-3876','1 Farwell Trail',77000,'2018-05-18 00:00:06','2022-05-18 00:00:07',6);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (7,'Debera Mordecai',292974293,'dmordecai6@washington.edu','680-824-2552','913 Utah Avenue',78000,'2019-05-18 00:00:07','2022-05-18 00:00:08',7);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (8,'Merridie Mathou',718562626,'mmathou7@bloomberg.com','152-188-4277','30898 Onsgard Drive',87600,'2019-02-18 00:00:08','2022-05-18 00:00:09',8);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (9,'Minerva Stolberger',757232880,'mstolberger8@shareasale.com','584-359-1306','23183 Anniversary Lane',45600,'2019-03-18 00:00:09','2022-05-18 00:00:10',9);
+INSERT INTO employees (`id_employee`,`employee_name`,`employee_cuil`,`employee_email`,`employee_phone`,`employee_address`,`employee_salary`,`join_date`,`end_date`,`id_store`) VALUES (10,'Dominga Checchetelli',532372037,'dchecchetelli9@hatena.ne.jp','379-500-0680','86 Commercial Park',87600,'2014-06-18 00:00:10','2022-05-18 00:00:11',10);
+
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (1,'Cinderella Barracks',424193922,'cbarracks0@chicagotribune.com','109-352-5481','8 Dennis Point',1);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (2,'Alida Heskin',352775001,'aheskin1@spotify.com','969-795-3560','28 Rutledge Way',2);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (3,'Eadie Dobney',162115911,'edobney2@mozilla.com','264-191-7862','461 Bellgrove Trail',3);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (4,'Jewel Knewstubb',130070377,'jknewstubb3@cmu.edu','451-419-6510','96 Carey Crossing',4);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (5,'Leandra Mapledorum',258663498,'lmapledorum4@youtube.com','767-977-5649','94 Monument Court',5);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (6,'Bren Offen',267955314,'boffen5@artisteer.com','452-645-0309','4978 Anzinger Street',6);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (7,'Hastie Elmar',696484288,'helmar6@shutterfly.com','684-915-3668','736 Chinook Trail',7);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (8,'Upton Adlington',478913644,'uadlington7@stumbleupon.com','500-861-1308','72414 Division Court',8);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (9,'Bernardine Lattin',391368915,'blattin8@hostgator.com','569-525-0641','1392 Hudson Court',9);
+INSERT INTO clients (`id_client`,`client_name`,`client_dni`,`client_email`,`client_phone`,`client_address`,`id_order`) VALUES (10,'Ealasaid Sweetsur',806768809,'esweetsur9@twitter.com','131-657-1444','52 Chinook Street',10);
+
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (1,'2022-05-20 00:00:01',13500,10,1,10);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (2,'2022-05-20 00:00:02',12500,9,2,9);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (3,'2022-05-20 00:00:03',15500,8,3,8);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (4,'2022-05-20 00:00:04',23999,7,4,7);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (5,'2022-05-20 00:00:05',6500,6,5,6);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (6,'2022-05-20 00:00:06',1256,5,6,5);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (7,'2022-05-20 00:00:07',9000,4,7,4);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (8,'2022-05-20 00:00:08',7600,3,8,3);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (9,'2022-05-20 00:00:09',13500,2,9,2);
+INSERT INTO orders (`id_order`,`order_date`,`order_price`,`id_client`,`id_product`,`id_store`) VALUES (10,'2022-05-20 00:00:10',10000,1,10,1);
+
